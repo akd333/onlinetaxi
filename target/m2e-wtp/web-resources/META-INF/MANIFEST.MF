@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: OnlineTaxi
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ashish
+Implementation-Vendor-Id: com.taxi.demo
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/OnlineTaxi
+Created-By: Maven Integration for Eclipse
+
