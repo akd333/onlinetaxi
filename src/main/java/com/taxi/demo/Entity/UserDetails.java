@@ -41,6 +41,30 @@ public class UserDetails {
 		return userId;
 	}
 
+	public String getAirport() {
+		return airport;
+	}
+
+	public void setAirport(String airport) {
+		this.airport = airport;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getEmailId() {
+		return emailId;
+	}
+
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+
 	public void setUserId(Long userId) {
 		this.userId = userId;
 	}
@@ -68,5 +92,9 @@ public class UserDetails {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
+	
+
+	
 	
 }
