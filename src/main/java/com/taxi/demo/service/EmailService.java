@@ -1,11 +1,8 @@
 package com.taxi.demo.service;
 
 import java.util.ArrayList;
-
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
-
 import com.taxi.demo.Entity.AdminDetails;
 import com.taxi.demo.dao.EmailRepository;
 
