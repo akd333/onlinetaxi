@@ -115,11 +115,7 @@ public class TaxiController {
 	
 	@RequestMapping(value="/save",method=RequestMethod.POST)
 	public String userDetails(@ModelAttribute UserDetails user,@ModelAttribute BookingDetails book,@ModelAttribute VehicleAreaPrice vehicleAreaPrice,AdminDetails admin,HttpServletRequest req) throws MessagingException
-	{
-		
-		
-	
-		
+	{	
 		try {
 		taxiservice.adduser(user);
 		taxiservice.addbooking(book);

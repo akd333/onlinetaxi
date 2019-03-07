@@ -6,6 +6,8 @@
 <head>
 
 <title>Online Taxi</title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet"
@@ -77,11 +79,11 @@ body {
 
 .form-signin .btn {
 	font-size: 15px;
-	font-weight:bold;
+	font-weight: bold;
 	border-radius: 50px;
 	padding: 10px;
-	margin:0px 25px 25px 0px;
-	float:right;
+	margin: 0px 25px 25px 0px;
+	float: right;
 	transition: all 0.2s;
 }
 
@@ -136,39 +138,54 @@ body {
 
 .form-label-group
 
+
  
+
 
 input
 
 
+
+
 :not
 
+
  
+
 
 (
 :placeholder-shown
 
+
  
+
 
 )
 {
 padding-top
 
 
+
+
 :
 
+
  
+
 
 calc
 
 
+
+
 (
 var
+
+
 (-
-
- 
-
 -input-padding-y
+
+
 
 
 )
@@ -176,33 +193,46 @@ var
 var
 
 
+
+
 (-
 -input-padding-y
+
+
 
 
 )
 *
 
+
  
+
 
 (2/3));
 padding-bottom
 
 
+
+
 :
 
+
  
+
 
 calc
 
 
+
+
 (
 var
+
+
 (-
-
- 
-
 -input-padding-y
+
+
 
 
 )/3);
@@ -224,9 +254,6 @@ a {
 	padding: 8px 16px;
 }
 
-::-webkit-scrollbar {
-	display: none;
-}
 </style>
 </head>
 <body>
@@ -318,9 +345,8 @@ a {
 						</div>
 						<div class="col-md-4">
 							<div class="form-group">
-								<b> <label for="Area">Area</label></b>
-								<select class="form-control" name="area" id="area">
-
+								<b> <label for="Area">Area</label></b> 
+								<select class="form-control" name="area" id="area" onmousedown="if(this.options.length>8){this.size=8;}"  onchange='this.size=0;' onblur="this.size=0;">
 									<option value="">Select Area</option>
 									<c:forEach var="area" items="${area}">
 										<option value="${area.area}">${area.area}</option>
@@ -387,16 +413,14 @@ a {
 						</div>
 					</div>
 				</div>
-				<div id="accordion">
-					<div class="card">
-						<div class="card-header" class="collapsed card-link"
-							data-toggle="collapse" href="#collapseOne"
-							style="cursor: pointer;">
+				<div >
+					<div>
+						<div class="card-header">
 
 							<font size="5px" color="blue"> Optional</font>
 
 						</div>
-						<div id="collapseOne" class="collapse " data-parent="#accordion">
+					<!-- <div id="collapseOne" class="collapse " data-parent="#accordion">-->
 							<div class="card-body">
 								<div class="cardpanel">
 									<div class="row">
@@ -428,7 +452,7 @@ a {
 
 							</div>
 
-						</div>
+						<!--</div>-->
 					</div>
 					<br>
 					<div class="row">
