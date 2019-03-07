@@ -11,9 +11,9 @@ public class SmsService {
     	
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
             Message message = Message.creator(
-                    new com.twilio.type.PhoneNumber("+917377893325"),
+                    new com.twilio.type.PhoneNumber("+917008335346"),
                     new com.twilio.type.PhoneNumber("+12015156757"),
-                    "hiii your flying taxi is on the way")
+                    "Booking request from new user. Please confirm the booking.")
                 .create();
             System.out.println(message.getSid());
     }

@@ -1,14 +1,11 @@
 package com.taxi.demo.controller;
-
 import java.util.ArrayList;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Controller;
-
 import com.taxi.demo.Entity.BookingDetails;
 import com.taxi.demo.Entity.UserDetails;
 import com.taxi.demo.service.EmailService;
@@ -36,7 +33,7 @@ public class EmailController {
 			System.out.println("not a number" + bookde.getPrice() + bookde.getNumberOfVehicle());
 		}
 
-		helper.setText("Yo " + user.getCustomerName() + " keep calm our flying TAXI is on the way and price is Rs:"
+		helper.setText("Hello " + user.getCustomerName() + " your taxi is on the way and price is Rs:"
 				+ totalprice);
 		helper.setSubject("Booking Confirmation from ONLINETAXI");
 
@@ -50,12 +47,9 @@ public class EmailController {
 		ArrayList<String> allMail = emailService.allEmail();
 		for (String em : allMail) {
 			helper.setTo(em);
-			helper.setText("there is a new booking from " + user.getCustomerName());
+			helper.setText("there is a new booking request from " + user.getCustomerName());
 			helper.setSubject("Booking Request new customer");
 			sender.send(message);
-
 		}
-
 	}
-
 }

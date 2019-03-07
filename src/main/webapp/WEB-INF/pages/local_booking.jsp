@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Online Taxi</title>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,6 +20,8 @@
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <style>
+
+
 #errmsg1 {
 	color: red;
 }
@@ -214,9 +217,6 @@ var
 	color: #777;
 }
 
-body {
-	width: 100%
-}
 
 a {
 	text-decoration: none;
@@ -318,7 +318,7 @@ a {
 						</div>
 						<div class="col-md-4">
 							<div class="form-group">
-								<b> <label for="Area">Destination Area(Bhubaneswar)</label></b>
+								<b> <label for="Area">Area</label></b>
 								<select class="form-control" name="area" id="area">
 
 									<option value="">Select Area</option>

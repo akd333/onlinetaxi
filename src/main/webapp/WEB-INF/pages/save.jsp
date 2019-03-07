@@ -1,4 +1,5 @@
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -170,11 +171,11 @@
 			<h3 class="heading text-capitalize text-center">Welcome</h3>
 			<h5 class="heading mb-5 text-center">Taxi Cab</h5>
 			<p>Discover. Experince A convenient and flexible way to travel to
-				and from Kempegowda International Airport, Bangalore We understand
-				the needs of businesses and have tailored our services to ensure
-				that our clients receive a hassle-free rental experience. We are
-				pioneer in the car rental industry with the expertise to deliver the
-				best in class car hire and car leasing services to corporate</p>
+				and from Biju Pattanaik International Airport, Bhubaneswar. We
+				understand the needs of businesses and have tailored our services to
+				ensure that our clients receive a hassle-free rental experience. We
+				are pioneer in the car rental industry with the expertise to deliver
+				the best in class car hire and car leasing services to corporate</p>
 			<br />
 			<div class="about-head text-center ">
 				<div class="row about-grids-top mb-5">
@@ -300,56 +301,25 @@
 					<h3 class="mb-4">
 						Micro Taxi -- <span class="">Rs 200</span>
 					</h3>
-					<h4 class="my-3">Small fares for short rides</h4>
-					<p>Curabitur eu neque nec ante sagittis dapibus et eu purus.
-						Proin et erat tempus, tempor sapien ac, faucibus nibh.</p>
-					<ul class="d-flex mt-3">
-						<li class="mr-3">2 <i class="fas fa-male" aria-hidden="true"></i></li>
-						<li class="mr-3">1 <i class="fas fa-suitcase"
-							aria-hidden="true"></i></li>
-					</ul>
+
 				</div>
 				<div class="col-lg-3 col-md-6 mt-md-0 mt-5 price-grid">
 					<h3 class="mb-4">
 						Mini Taxi -- <span class="">Rs 400</span>
 					</h3>
-					<h4 class="my-3">Small fares for short rides</h4>
-					<p>Curabitur eu neque nec ante sagittis dapibus et eu purus.
-						Proin et erat tempus, tempor sapien ac, faucibus nibh.</p>
-					<ul class="d-flex mt-3">
-						<li class="mr-3">2 <i class="fas fa-male" aria-hidden="true"></i></li>
-						<li class="mr-3">2 <i class="fas fa-suitcase"
-							aria-hidden="true"></i></li>
-						<li class="mr-3">1 <i class="fas fa-wifi" aria-hidden="true"></i></li>
-					</ul>
+
 				</div>
 				<div class="col-lg-3 col-md-6 mt-lg-0 mt-5 price-grid">
 					<h3 class="mb-4">
 						Prime Taxi -- <span class="">Rs 600</span>
 					</h3>
-					<h4 class="my-3">Small fares for short rides</h4>
-					<p>Curabitur eu neque nec ante sagittis dapibus et eu purus.
-						Proin et erat tempus, tempor sapien ac, faucibus nibh.</p>
-					<ul class="d-flex mt-3">
-						<li class="mr-3">3 <i class="fas fa-male" aria-hidden="true"></i></li>
-						<li class="mr-3">2 <i class="fas fa-suitcase"
-							aria-hidden="true"></i></li>
-						<li class="mr-3">1 <i class="fas fa-wifi" aria-hidden="true"></i></li>
-					</ul>
+
 				</div>
 				<div class="col-lg-3 col-md-6 mt-lg-0 mt-5 price-grid">
 					<h3 class="mb-4">
 						Sedan Taxi -- <span class="">Rs 800</span>
 					</h3>
-					<h4 class="my-3">Small fares for short rides</h4>
-					<p>Curabitur eu neque nec ante sagittis dapibus et eu purus.
-						Proin et erat tempus, tempor sapien ac, faucibus nibh.</p>
-					<ul class="d-flex mt-3">
-						<li class="mr-3">4 <i class="fas fa-male" aria-hidden="true"></i></li>
-						<li class="mr-3">3 <i class="fas fa-suitcase"
-							aria-hidden="true"></i></li>
-						<li class="mr-3">1 <i class="fas fa-wifi" aria-hidden="true"></i></li>
-					</ul>
+
 				</div>
 			</div>
 		</div>
@@ -373,18 +343,7 @@
 				<div
 					class="col-lg-3 col-sm-6 mb-lg-0 mb-5 footer-grid-agileits-w3ls1 text-left">
 					<h3 class="mb-sm-5 mb-4">Locate Us</h3>
-					<ul class="w3ls-footer-bottom-list">
-						<li><span class="fas fa-map-marker"></span> 3481 Jack Street
-							Beverly Jack Hills<span> 90210 Block, USA </span></li>
-						<li><span class="fas fa-envelope"></span> <a
-							href="mailto:name@example.com"> mail@example.com</a></li>
-						<li><span class="fas fa-phone"></span> +112 367 896 2449</li>
-						<li><span class="fas fa-fax"></span> +112 367 896 2449</li>
-						<li><span class="fas fa-globe"></span> <a href="#">
-								www.websitename.com</a></li>
-						<li><span class="fas fa-clock"></span> Office Time : 8:00 a.m
-							- 6:00 p.m</li>
-					</ul>
+
 				</div>
 				<div
 					class="col-lg-3 col-sm-6 mb-sm-0 mb-5 footer-grid-agileits-w3ls text-left">
@@ -494,7 +453,7 @@
 			<div class="footer-cpy text-center pt-sm-5 mt-sm-5 mt-4 pt-3">
 				<div class="w3layouts-agile-copyrightbottom">
 					<p>
-						© 2018 Taxi Cab. All Rights Reserved | Design by <a href="#">Saumya</a>
+						ï¿½ 2018 Taxi Cab. All Rights Reserved | Design by <a href="#">Berrybook</a>
 					</p>
 
 				</div>
