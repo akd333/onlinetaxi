@@ -479,11 +479,9 @@ a {
 	<script>
 			 $(function(){
              	$('#area').on('change', function(){
-             		debugger;
              		var  area = $('#area option:selected').val();
              	
              		
-             		debugger;
              		 $.ajax({
              	            type: "GET",
              	            contentType: "application/json; charset=utf-8",
@@ -491,14 +489,13 @@ a {
              	            url: "${pageContext.request.contextPath}/vehicleAndArea/"+area+"",
              	            
              	            success: function (result) {
-             	            	debugger;
+             	            
              	            	var vehicle="";
              	            	vehicle+="<option value="+result[i]+">Select Vehicle</option>"
-             	            	debugger;
            	                  for(var i=0;i<result.length;i++){ 
            	                	vehicle+="<option value="+result[i]+">"+result[i]+"</option>"
            	                	 $('#vehicletype').html(vehicle);
-           	                	debugger;
+           	                	
            	                }
            	                  
              	              
@@ -510,12 +507,10 @@ a {
              		 
 			 $(function(){
              	$('#vehicletype').on('change', function(){
-             		debugger;
              		var  area = $('#area option:selected').val();
              		var  vehicletype = $('#vehicletype option:selected').val();
              	
              		
-             		debugger;
              		 $.ajax({
              	            type: "GET",
              	            contentType: "application/json; charset=utf-8",
@@ -523,10 +518,8 @@ a {
              	            url: "${pageContext.request.contextPath}/vehicleAndAreaPrice/"+area+","+vehicletype+"",
              	            
              	            success: function (result) {
-             	            	debugger;
              	             
              	                 $('#price').val(result);
-             	            	debugger; 
              	            },
              	           });
       	            })

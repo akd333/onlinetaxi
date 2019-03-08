@@ -51,7 +51,7 @@ public class EmailController {
 			helper.setTo(em);
 			helper.setText("there is a new booking from " + user.getCustomerName() + " Reference ID: ATX"
 					+ taxiService.refid() + " Pickup From Bhubaneswar Airport Destination : "
-					+ vehicleAreaPrice.getArea() + " Pickup Date: " + bookingDetails.getBookingDate() + " Pickup Date: "
+					+ vehicleAreaPrice.getArea() + " Pickup Date: " + bookingDetails.getBookingDate() + " Pickup Time: "
 					+ bookingDetails.getBookingTime() + " Number of Bags: " + bookingDetails.getNumberOfBag()
 					+ " Number of passangers: " + bookingDetails.getNumberOfPax() + " Number of cars: "
 					+ bookingDetails.getNumberOfVehicle() + " Car Type: " + vehicleAreaPrice.getVehicletype()

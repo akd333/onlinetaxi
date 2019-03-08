@@ -33,7 +33,7 @@ public class SmsService {
 	String password = "prasant123";
 	String route="2";
 	String senderId = "MBNSOD";
-	String message = "Booking Details\n" +"\nOn Date:"+bookingDetails.getBookingDate()+"\n Customer Name:"+user.getCustomerName()+"\nTo Address:"+vehicleAreaPrice.getArea()+"\nTime:"+bookingDetails.getBookingTime()+"\nType:"+vehicleAreaPrice.getVehicletype()+"\nCar needed:"+bookingDetails.getNumberOfVehicle();
+	String message = "Booking Details"+"\nCustomer Name:"+user.getCustomerName()+"\nTo Address:"+vehicleAreaPrice.getArea()+"\nTime:"+bookingDetails.getBookingTime()+"\nType:"+vehicleAreaPrice.getVehicletype()+"\nCar needed:"+bookingDetails.getNumberOfVehicle()+"\nOn Date:"+bookingDetails.getBookingDate();
 	URLConnection myURLConnection=null;
     URL myURL=null;
     BufferedReader reader=null;
